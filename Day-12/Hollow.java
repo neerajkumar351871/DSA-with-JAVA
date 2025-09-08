@@ -2,6 +2,7 @@ public class Hollow
 {
   public static void hollowprint(int row, int colu)
   {  // Column
+   
     for(int i=1;i<=colu;i++)
     {
          // Row
@@ -15,6 +16,7 @@ public class Hollow
             {
                 System.out.print(" ");
             }
+           
          }
         System.out.println();
     }
