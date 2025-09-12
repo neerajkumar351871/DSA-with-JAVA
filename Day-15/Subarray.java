@@ -15,8 +15,6 @@ public class Subarray
         }
          
           totalPair++;
-         System.out.print(add);
-
          System.out.println();
         }
         System.out.println();
@@ -28,5 +26,26 @@ public class Subarray
     {
          int array[]={2,4,6,8,10};
          subarray(array);
+         /*2 
+2 4
+2 4 6
+2 4 6 8
+2 4 6 8 10
+
+4
+4 6
+4 6 8
+4 6 8 10
+
+6
+6 8
+6 8 10
+
+8
+8 10
+
+10
+
+Total no of paris:15*/
     }
 }
